@@ -66,19 +66,19 @@ const useMetaTags = (metadata: {
 // PORTFOLIO DATA CONFIGURATION
 // ============================================================================
 const defaultPortfolioData = {
-  name: "LADY DIANE BAUZON CASILANG",
-  course: "BS in Information Technology",
-  school: "FEU Institute of Technology",
-  about: "I am a fourth-year IT student and freelance designer who integrates technical troubleshooting with creative insight to deliver innovative, efficient solutions.",
+  name: "VERONICA HERNANE",
+  course: "Bachelor of Science in Information Technology",
+  school: "Torres Capitol College Inc.",
+  about: "I am a first-year Information Technology student at Torres Capitol College Incorporated, currently building a strong programming foundation through Python as a beginner. I am dedicated to developing clean, logical coding practices and mastering core programming principles to support my academic growth and future career in technology.",
   skills: [
-    "Graphic Design",
-    "UI / UX Design",
-    "Project Management",
-    "Full Stack Development",
-    "Web & App Development"
+    "Basic Python Programming", 
+    "Logical Problem-solving & Critical Thinking", 
+    "Computer Proficiency & Quick Learning", 
+    "Clean Coding & Syntax Awareness", 
+    "Computational & Analytical Thinking"
   ],
-  linkedin: "https://www.linkedin.com/in/ldcasilang/",
-  github: "https://github.com/ldcasilang",
+  linkedin: "https://www.linkedin.com/in/veronica-hernane-209b82431/",
+  github: "https://github.com/hernaneveronica8-hub",
 }
 
 // Network configuration
