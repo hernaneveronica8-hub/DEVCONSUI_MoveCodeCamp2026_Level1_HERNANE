@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from "react"
-import { MAINNET_PORTFOLIO_ID } from "../constants"
+import { TESTNET_PORTFOLIO_ID } from "../constants"
 
 // ============================================================================
 // CUSTOM HOOK FOR DYNAMIC META TAGS
@@ -21,8 +21,7 @@ const useMetaTags = (metadata: {
       { name: 'description', content: metadata.description },
       { property: 'og:title', content: metadata.title },
       { property: 'og:description', content: metadata.description },
-      { property: 'og:image', content: metadata.image },
-      { property: 'og:url', content: metadata.url },
+      { property: 'og:image', content: metadata.image },t: metadata.url },
       { property: 'twitter:title', content: metadata.title },
       { property: 'twitter:description', content: metadata.description },
       { property: 'twitter:image', content: metadata.image },
@@ -99,10 +98,9 @@ const PortfolioView = () => {
   // ==========================================================================
   // STATE MANAGEMENT
   // ==========================================================================
-  const objectId = MAINNET_PORTFOLIO_ID;
-  
+  const objectId = TESTNET_PORTFOLIO_ID
   // Network state - default to testnet, can be changed if needed
-  const [currentNetwork, setCurrentNetwork] = useState<"testnet" | "mainnet">("mainnet");
+  const [currentNetwork, setCurrentNetwork] = useState<"testnet" | "mainnet">("testnet");
   
   const [portfolioData, setPortfolioData] = useState(defaultPortfolioData);
   const [isLoading, setIsLoading] = useState(false);
