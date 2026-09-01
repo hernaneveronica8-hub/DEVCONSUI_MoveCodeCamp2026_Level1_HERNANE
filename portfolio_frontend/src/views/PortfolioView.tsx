@@ -85,7 +85,7 @@ const defaultPortfolioData = {
 const NETWORKS = {
   testnet: {
     name: "Testnet",
-    fullnode: "https://fullnode.testnet.sui.io",
+    fullnode: "https://sui-testnet-rpc.publicnode.com",
     explorer: "https://suiscan.xyz/testnet",
   },
   mainnet: {
