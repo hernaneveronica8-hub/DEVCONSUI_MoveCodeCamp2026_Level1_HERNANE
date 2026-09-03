@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from "react"
-import { TESTNET_PORTFOLIO_ID } from "../constants"
+import { MAINNET_PORTFOLIO_ID } from "../constants"
 
 // ============================================================================
 // CUSTOM HOOK FOR DYNAMIC META TAGS
